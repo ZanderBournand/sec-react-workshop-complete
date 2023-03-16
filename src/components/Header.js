@@ -25,9 +25,7 @@ export const Header = () => {
 
             <li>
               {/*Part 4 - Step 2*/}
-              <div className="btn btn-main">
-                Discover
-              </div>
+              <div className="btn btn-main"> Discover </div>
             </li>
           </ul>
         </div>
