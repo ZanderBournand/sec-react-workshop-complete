@@ -30,7 +30,7 @@ export const Discover = () => {
             />
           </div>
 
-          {/*Part 1 - Step 2*/}
+          {/*Part 1 - Step 3*/}
 
         </div>
       </div>
