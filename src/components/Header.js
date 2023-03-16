@@ -8,24 +8,24 @@ export const Header = () => {
         <div className="inner-content">
           <div className="brand">
             {/*Part 4 - Step 2*/}
-            <div>Watchlist</div>
+            <Link to="/">WatchList</Link>
           </div>
 
           <ul className="nav-links">
             
             <li>
               {/*Part 4 - Step 2*/}
-              <div>Watchlist</div>
+              <Link to="/watchlist">Watchlist</Link>
             </li>
 
             <li>
               {/*Part 4 - Step 2*/}
-              <div>Watched</div>
+              <Link to="/watched">Watched</Link>
             </li>
 
             <li>
               {/*Part 4 - Step 2*/}
-              <div className="btn btn-main"> Discover </div>
+              <Link to="/" className="btn btn-main"> Discover </Link>
             </li>
           </ul>
         </div>

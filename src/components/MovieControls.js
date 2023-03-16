@@ -5,6 +5,9 @@ export const MovieControls = ({ type, movie }) => {
   const {
     addMovieToWatched,
     // Part 6 - Step 6
+    removeMovieFromWatchlist,
+    moveToWatchlist,
+    removeFromWatched,
   } = useContext(GlobalContext);
 
   return (
@@ -18,6 +21,7 @@ export const MovieControls = ({ type, movie }) => {
           <button
             className="ctrl-btn"
             // Part 6 - Step 7
+            onClick={() => removeMovieFromWatchlist(movie.id)}
           >
             <i className="fa-fw fa fa-times"></i>
           </button>
@@ -29,6 +33,7 @@ export const MovieControls = ({ type, movie }) => {
           <button 
             className="ctrl-btn" 
             // Part 6 - Step 7
+            onClick={() => moveToWatchlist(movie)}
           >
             <i className="fa-fw far fa-eye-slash"></i>
           </button>
@@ -36,6 +41,7 @@ export const MovieControls = ({ type, movie }) => {
           <button
             className="ctrl-btn"
             // Part 6 - Step 7
+            onClick={() => removeFromWatched(movie.id)}
           >
             <i className="fa-fw fa fa-times"></i>
           </button>
