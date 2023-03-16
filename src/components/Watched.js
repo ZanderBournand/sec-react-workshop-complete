@@ -16,15 +16,8 @@ export const Watched = () => {
           </span>
         </div>
 
-        {watched.length > 0 ? (
-          <div className="movie-grid">
-            {watched.map((movie) => (
-              <MovieCard movie={movie} key={movie.id} type="watched" />
-            ))}
-          </div>
-        ) : (
-          <h2 className="no-movies">No movies in your list! Add some!</h2>
-        )}
+        {/*Part 5 - Step 2*/}
+
       </div>
     </div>
   );

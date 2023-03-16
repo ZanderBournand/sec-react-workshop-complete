@@ -7,22 +7,27 @@ export const Header = () => {
       <div className="container">
         <div className="inner-content">
           <div className="brand">
-            <Link to="/">WatchList</Link>
+            {/*Part 4 - Step 2*/}
+            <div>Watchlist</div>
           </div>
 
           <ul className="nav-links">
+            
             <li>
-              <Link to="/">Watch List</Link>
+              {/*Part 4 - Step 2*/}
+              <div>Watchlist</div>
             </li>
 
             <li>
-              <Link to="/watched">Watched</Link>
+              {/*Part 4 - Step 2*/}
+              <div>Watched</div>
             </li>
 
             <li>
-              <Link to="/add" className="btn btn-main">
-                + Add
-              </Link>
+              {/*Part 4 - Step 2*/}
+              <div className="btn btn-main">
+                Discover
+              </div>
             </li>
           </ul>
         </div>

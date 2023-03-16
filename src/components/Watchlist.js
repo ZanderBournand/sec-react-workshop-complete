@@ -16,15 +16,8 @@ export const Watchlist = () => {
           </span>
         </div>
 
-        {watchlist.length > 0 ? (
-          <div className="movie-grid">
-            {watchlist.map((movie) => (
-              <MovieCard movie={movie} key={movie.id} type="watchlist" />
-            ))}
-          </div>
-        ) : (
-          <h2 className="no-movies">No movies in your list! Add some!</h2>
-        )}
+        {/*Part 5 - Step 1*/}
+
       </div>
     </div>
   );
